@@ -15,4 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_begonia.mk
+    $(LOCAL_DIR)/awaken_begonia.mk
+
+COMMON_LUNCH_CHOICES := \
+    awaken_begonia-userdebug
