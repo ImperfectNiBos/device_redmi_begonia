@@ -26,9 +26,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Inherit from begonia device
 $(call inherit-product, device/redmi/begonia/device.mk)
+$(call inherit-product, vendor/aspen/config.mk)
+$(call inherit-product, vendor/dolby/config.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+$(call inherit-product, vendor/awaken/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
